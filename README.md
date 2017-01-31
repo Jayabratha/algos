@@ -6,9 +6,6 @@
 Solution: Using Sliding Window Algorithm
 
 var lengthOfLongestString = function (s) {
-    /*ans is the length of the required longest string
-     *i is the start index of the sliding window
-     *j is the end index of the sliding window*/
     var ans=0, i=0, j=0, subString = "", stringLength = s.length;
     
     while(i < stringLength && j < stringLength) {
