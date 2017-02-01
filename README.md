@@ -41,7 +41,7 @@ var isPalindrome = function (n) {
  var isPalindrome = function (n) {
     var i, numString = n.toString(), stringLen = numString.length;
     
-    for (i=0; i\<stringLength/2, i++) {
+    for (i=0; i<stringLength/2, i++) {
         if (numString[i] !=== numString[stringLength-1-i]) {
             return false;
          }
