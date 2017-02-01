@@ -25,4 +25,28 @@ var lengthOfLongestString = function (s) {
     
     return ans;
  }
-            
+ 
+#2. Check if a number is palindrome
+Solution 1: Using Javascript built in functions
+
+var isPalindrome = function (n) {
+    var numString = n.toString(),
+        reverseNumString = numString.split("").reverse().join("");
+        
+    return numString === reverseNumString;
+ }
+ 
+ Solution 2: Using for loop
+ 
+ var isPalindrome = function (n) {
+    var i, numString = n.toString(), stringLen = numString.length;
+    
+    for (i=0; i\<stringLength/2, i++) {
+        if (numString[i] !=== numString[stringLength-1-i]) {
+            return false;
+         }
+     }
+     
+     return true;
+ }
+    
