@@ -30,6 +30,7 @@ var lengthOfLongestString = function (s) {
  }
  
 #2. Check if a number is palindrome
+
 Solution 1: Using Javascript built in functions
 
 var isPalindrome = function (n) {
