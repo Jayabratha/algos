@@ -5,7 +5,10 @@
 #1. Get length of the longest substring without having duplicate letters
 Solution: Using Sliding Window Algorithm
 
+
+
 var lengthOfLongestString = function (s) {
+
     var ans=0, i=0, j=0, subString = "", stringLength = s.length;
     
     while(i < stringLength && j < stringLength) {
@@ -30,6 +33,7 @@ var lengthOfLongestString = function (s) {
 Solution 1: Using Javascript built in functions
 
 var isPalindrome = function (n) {
+
     var numString = n.toString(),
         reverseNumString = numString.split("").reverse().join("");
         
@@ -39,6 +43,7 @@ var isPalindrome = function (n) {
  Solution 2: Using for loop
  
  var isPalindrome = function (n) {
+ 
     var i, numString = n.toString(), stringLen = numString.length;
     
     for (i=0; i<stringLength/2, i++) {
